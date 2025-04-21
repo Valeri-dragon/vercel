@@ -1,0 +1,64 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+textarea {
+    border: none;
+    resize: none;
+}
+
+textarea,
+input {
+    -moz-appearance: none;
+    outline: 0px none transparent;
+    border: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: local("OpenSans-Regular"),
+        url("../fonts/OpenSansRegular.woff2") format("woff2"),
+        url(../fonts/OpenSansRegular.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Prata";
+    src: local("Prata-Regular"),
+        url("../fonts/Prata-Regular.ttf") format("ttf");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+/* :root {
+   
+} */
+body {
+    min-width: 320px;
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--color-body);
+}
