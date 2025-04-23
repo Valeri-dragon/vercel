@@ -309,11 +309,11 @@ body {
 }
 
 .form__container {
-  position: absolute;
-  padding: 61px 132px;
-  top: -15px;
-  width: 68%;
-  left: 1%;
+    position: absolute;
+      padding: 61px 132px;
+      top: 10%;
+      width: 58%;
+      left: 5%;
 }
 
 .feedback__title {
